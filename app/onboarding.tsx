@@ -64,8 +64,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   tagline: {
-    fontWeight: "bold",
     fontSize: moderateScale(theme.fontSize[20]),
+    fontFamily: "Caveat_700Bold",
     color: theme.colors.white,
     textAlign: "center",
   },

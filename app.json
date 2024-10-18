@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "planty",
+    "name": "Planty",
     "slug": "planty",
     "scheme": "planty",
     "version": "1.0.0",
@@ -35,7 +35,27 @@
         {
           "photosPermission": "The app accesses your photos to pick the lovely plants."
         }
-      ]
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/caveat/Caveat_400Regular.ttf",
+            "node_modules/@expo-google-fonts/caveat/Caveat_700Bold.ttf"
+          ]
+        }
+      ],
+      [
+      "expo-quick-actions",
+      {
+        "androidIcons": {
+          "leaf": {
+            "foregroundImage": "./assets/leaf.png",
+            "backgroundColor": "#fff"
+          }
+        }
+      }
+    ]
     ],
     "extra": {
       "eas": {

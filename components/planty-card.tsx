@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
   plantName: {
     fontSize: 18,
     marginBottom: 4,
+    fontFamily: "Caveat_400Regular",
   },
   subtitle: {
     color: theme.colors.grey,
